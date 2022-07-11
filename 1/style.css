@@ -1,0 +1,22 @@
+#top{
+    width:1em;
+    height:1em;
+    background-color: cyan;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+#bottom {
+    width:1em;
+    height: 2em;
+    background-color: orange;
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:0;
+    height:100vh;
+}
